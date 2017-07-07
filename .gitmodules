@@ -1,6 +1,4 @@
 [submodule "imports/Hangman-Game"]
 	path = imports/Hangman-Game
-	url = git@github.com:AdamMcAdamson/Hangman-Game.git
-[submodule "Hangman-Game"]
-	path = Hangman-Game
-	url = git@github.com:AdamMcAdamson/Hangman-Game.git
+	url = git://github.com/AdamMcAdamson/Hangman-Game.git
+
