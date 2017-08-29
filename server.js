@@ -16,6 +16,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Override with POST having ?_method=DELETE
 app.use(methodOverride("_method"));
 
+app.get('/am', function(req, res){
+	res.redirect('https://open.spotify.com/user/senoradame/playlist/2kG7uER7LabkkamE9AQgH0');
+});
 
 // ______ IGNORE ______
 	// // Set Handlebars.
